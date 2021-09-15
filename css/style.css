@@ -23,3 +23,8 @@ p{
 li {
     color: white;
 }
+
+.vinculo {
+    color: #68afd8;
+    display: inline-block;
+}
