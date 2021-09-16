@@ -45,7 +45,28 @@
     </header>
     
 
+    <h2>Arsenal de armas</h2>
+    <section>
+        <form action="arsenal-armas" method="post">
+            <ul>
+             <ol>
+               <label for="codigo">codigo del arma:</label>
+               <input type="text" id="codigo" name="user_codigo">
+             </ol>
 
+             <ol>
+                <label>Tipo de arma</label>
+                <input list="categoria-arma" name="list">
+                <datalist id="categoria-arma">
+                    <option label="Glock" value="Glock">
+                    <option label="Beretta" value="Beretta">
+                    <option label="Smi tanfoglio" value="Smi tanfoglio">
+                    <option label="Otras" value="Otras"></option>
+                </datalist>
+             </ol>
+            </ul>
+           </form>
+    </section>
 
     <a href="../index.html">Regresar</a>
 

@@ -44,8 +44,31 @@
 
     </header>
     
+    <h2>Perfil policial</h2>
 
-
+    <section>
+        <form action="perfil-policial" method="post">
+            <ul>
+             <ol>
+               <label for="name">Nombre del policia:</label>
+               <input type="text" id="name" name="user_name">
+             </ol>
+             <ol>
+               <label for="cedula">Cedula del policia:</label>
+               <input type="text" id="cedula" name="user_cedula">
+             </ol>
+             <ol>
+                <label>Tipo de categorias</label>
+                <input list="categoria" name="list">
+                <datalist id="categoria">
+                    <option label="Administrativas" value="Administrativas">
+                    <option label="Agentes" value="Agentes">
+                    <option label="Otras" value="Otras">
+                </datalist>
+             </ol>
+            </ul>
+           </form>
+    </section>
 
     <a href="../index.html">Regresar</a>
 

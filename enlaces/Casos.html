@@ -45,6 +45,36 @@
     </header>
     
 
+    <h2>Casos</h2>
+    <section>
+        <form action="casos" method="post">
+            <ul>
+             <ol>
+               <label for="caso">Codigo del caso:</label>
+               <input type="text" id="caso" name="user_caso">
+             </ol>
+             <ol>
+                <label for="juzgado">Juzgado:</label>
+                <input type="name" id="juzgado" name="user_juzgado">
+              </ol>
+              <ol>
+                <label for="telefono">telefono del delincuente:</label>
+                <input type="tel" id="codigo" name="user_telefono">
+              </ol>
+             <ol>
+                <label>Principal cargo</label>
+                <input list="cargo" name="list">
+                <datalist id="cargo">
+                    <option label="Robo" value="Robo">
+                    <option label="Homicidio" value="Homicidio">
+                    <option label="Violacion" value="Violacion">
+                    <option label="Otras" value="Otras"></option>
+                </datalist>
+             </ol>
+            </ul>
+           </form>
+    </section>  
+
 
 
     <a href="../index.html">Regresar</a>
