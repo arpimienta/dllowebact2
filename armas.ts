@@ -20,5 +20,11 @@ class armas {
 
 }
 
-let arma1 = new armas ("1", "glock", )
+let arma1 = new armas ("1235", "glock", )
 console.log(arma1.getMostrarArmas());
+
+let arma2 = new armas ("1865", "beretta", )
+console.log(arma2.getMostrarArmas());
+
+let arma3 = new armas ("5486", "smi tanfoglio", )
+console.log(arma3.getMostrarArmas());
