@@ -47,19 +47,15 @@
 
     <h2>Casos</h2>
     <section>
-        <form action="casos" method="post">
+        <form id="casos" method="post">
             <ul>
              <ol>
                <label for="caso">Codigo del caso:</label>
-               <input type="text" id="caso" name="user_caso">
+               <input type="number" id="caso">
              </ol>
              <ol>
                 <label for="juzgado">Juzgado:</label>
-                <input type="name" id="juzgado" name="user_juzgado">
-              </ol>
-              <ol>
-                <label for="telefono">telefono del delincuente:</label>
-                <input type="tel" id="codigo" name="user_telefono">
+                <input type="name" id="juzgado">
               </ol>
              <ol>
                 <label>Principal cargo</label>
@@ -71,6 +67,8 @@
                     <option label="Otras" value="Otras"></option>
                 </datalist>
              </ol>
+
+             <button type="submit" id="enviar">Enviar</button>
             </ul>
            </form>
     </section>  
@@ -78,6 +76,6 @@
 
 
     <a class="back" href="../index.html">REGRESAR</a>
-
+    <script src="/js/app.js"></script>
 </body>
 </html>

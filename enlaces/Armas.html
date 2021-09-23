@@ -47,11 +47,11 @@
 
     <h2>Arsenal de armas</h2>
     <section>
-        <form action="arsenal-armas" method="post">
+        <form id="arsenalArmas" method="post">
             <ul class="armas">
              <ol>
                <label for="codigo" >codigo del arma:</label>
-               <input type="text" id="codigo" name="user_codigo">
+               <input type="number" id="codigo">
              </ol>
 
              <ol>
@@ -64,11 +64,12 @@
                     <option label="Otras" value="Otras"></option>
                 </datalist>
              </ol>
+                 <button type="submit" id="enviar">Enviar</button>
             </ul>
            </form>
     </section>
 
     <a class="back" href="../index.html" >REGRESAR</a>
-
+    <script src="/js/app.js"></script>
 </body>
 </html>
